@@ -2,14 +2,14 @@
 
 
 import './App.css'
-import Todo from './components/todo'
+import Todo from './components/Todo'
 
 //importing provider and the store 
 import { Provider } from 'react-redux'
 import { store } from './app/store'
 
 function App() {
-  return (
+  return ( 
     <>
       <Provider store={store}>
       {/* now this Todo component has the ascess to our store by using a hook called useSelector() */}
